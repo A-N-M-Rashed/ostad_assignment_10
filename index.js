@@ -3,7 +3,7 @@ function calculateDifference(val1, val2) {
     return Math.abs(val1 - val2);
 }
 
-console.log(calculateDifference(1, 2));
+console.log("Diference: " + calculateDifference(1, 2));
 //Solution 1 Ends
 
 //Solution 2
@@ -12,13 +12,13 @@ function isOdd(val) {
     if (val % 2 != 0) return true;
 }
 
-console.log(isOdd(4));
+console.log("isOdd: " + isOdd(4));
 //Solution 2 Ends
 
 //Solution 3
 const nums = [];
 function findMin(nums) {
-    console.log(Math.min(...nums));
+    console.log("Smallest number: " + Math.min(...nums));
 }
 
 findMin([5, 3, 4]);
@@ -33,13 +33,13 @@ function filterEvenNumbers(number) {
     }
 }
 
-console.log(newArr);
+console.log("filtered even numbers: " + newArr);
 //Solution 4 Ends
 
 //Solution 5
 
 const old_arr = [1, 30, 4, 21, 55];
-console.log(old_arr.sort(sortArrayDescending));
+console.log("Array in Decending Order: " + old_arr.sort(sortArrayDescending));
 function sortArrayDescending(a,b) {
     return b-a;
 }
@@ -47,7 +47,7 @@ function sortArrayDescending(a,b) {
 
 //Solution 6
 function lowercaseFirstLetter(s){
-    console.log(s[0].toLowerCase()+s.substr(1));
+    console.log("First Letter Lowercase: " + s[0].toLowerCase()+s.substr(1));
 }
 
 lowercaseFirstLetter("OSTAD");
@@ -62,7 +62,7 @@ function findAverage(arr){
 
     result=result/(arr.length);
 
-    console.log(result);
+    console.log("Average : " + result);
 }
 
 findAverage([10, 20]);
@@ -79,5 +79,5 @@ function isLeapYear(year){
 
 }
 
-console.log(isLeapYear(2004));
+console.log("isLeapYear: " + isLeapYear(2004));
 //Solution 8 Ends
