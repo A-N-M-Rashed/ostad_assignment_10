@@ -45,3 +45,11 @@ function sortArrayDescending(a,b) {
 }
 //Solution 5 Ends
 
+//Solution 6
+function lowercaseFirstLetter(s){
+    console.log(s[0].toLowerCase()+s.substr(1));
+}
+
+lowercaseFirstLetter("OSTAD");
+//Solution 6 Ends
+
