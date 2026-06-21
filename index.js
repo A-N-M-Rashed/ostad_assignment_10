@@ -53,3 +53,17 @@ function lowercaseFirstLetter(s){
 lowercaseFirstLetter("OSTAD");
 //Solution 6 Ends
 
+//Solution 7
+function findAverage(arr){
+    let result=0;
+    for(number of arr){
+        result+=number;
+    }
+
+    result=result/(arr.length);
+
+    console.log(result);
+}
+
+findAverage([10, 20]);
+//Solution 7 Ends
