@@ -22,3 +22,18 @@ function findMin(nums){
 }
 
 findMin([5, 3, 4]);
+//Solution 3 ends
+
+//Solution 4
+const numbers=[66,70, 71, 29];
+const newArr= numbers.filter(filterEvenNumbers);
+function filterEvenNumbers(number){
+    if(number%2==0){
+            return number;
+    }
+}
+
+console.log(newArr);
+//Solution 4 Ends
+
+
