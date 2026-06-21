@@ -14,3 +14,11 @@ function isOdd(val){
 
 console.log(isOdd(4));
 //Solution 2 Ends
+
+//Solution 3
+const nums=[];
+function findMin(nums){
+    console.log(Math.min(...nums));
+}
+
+findMin([5, 3, 4]);
